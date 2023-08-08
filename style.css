@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url(https://images.ctfassets.net/0idwgenf7ije/6nHv8TLpKDInxwu4z9Zmsb/6db5b1cf5eac1c7db05e843c95f217fe/Gemini-Security_Public_and_Private_keys_What_are_Public_and_Private_keys.png?fm=webp);
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+	color: rgb(240, 240, 233);
+	display: flex;
+	font-family: 'Muli', sans-serif;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+	min-height: 100vh;
+
+}
+
+h2 {
+	color: rgb(79, 250, 79);
+
+}
+
+@keyframes effect {
+	0% {
+		background: linear-gradient(#eef0ee, #eb0909);
+		-webkit-background-clip: text;
+	}
+
+	100% {
+		background: linear-gradient(#fafaf5, #2bdd14);
+		-webkit-background-clip: text;
+	}
+}
+
+p {
+	margin: 5px 0;
+}
+
+h2 {
+	margin: 10px 0 20px;
+	text-align: center;
+}
+
+input[type=checkbox] {
+	margin-right: 0;
+}
+
+.container {
+	background-color: #513cb0;
+	box-shadow: 1px -1px 8px rgba(220, 226, 129, 0.753);
+	padding: 20px;
+	width: 350px;
+	max-width: 100%;
+}
+
+.result-container {
+	background-color: rgba(7, 5, 5, 0.623);
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	position: relative;
+	font-size: 18px;
+	letter-spacing: 1px;
+	padding: 12px 10px;
+	height: 50px;
+	width: 100%;
+}
+
+.result-container #result .btn h3 {
+	word-wrap: break-word;
+	max-width: calc(100% - 40px);
+
+}
+
+.result-container .btn {
+    font-size: 11px;
+    font-weight: 900;
+    position: absolute;
+    top: 3px;
+    right: 2px;
+    height: 44px;
+    width: 53px;
+}
+
+.btn {
+	border: none;
+	color: rgb(79, 250, 79);
+	cursor: pointer;
+	font-size: 19px;
+	background-color: #3B3B98;
+}
+
+.btn-large {
+	display: block;
+	width: 100%;
+	height: 50px;
+}
+
+.setting {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 15px 0	;
+}
+
+@media screen and (max-width: 400px) {
+	.result-container {
+		font-size: 14px;
+	}
+}
+ 
